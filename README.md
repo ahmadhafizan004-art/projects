@@ -138,7 +138,7 @@ I'm actively looking for internship opportunities where I can contribute my tech
 - **Email:** [ahmadhafizan004@gmail.com]
 - **LinkedIn:** [Ahmad Hafizan Ahmad Mohtar](www.linkedin.com/in/ahmad-hafizan-ahmad-mohtar-290329270)
 - **GitHub:** [@ahmadhafizan004-art](https://github.com/ahmadhafizan004-art)
-- **Portfolio Website:** [Your Website - Coming Soon]
+- **Portfolio Website:** [Coming Soon]
 
 ---
 
