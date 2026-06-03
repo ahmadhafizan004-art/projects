@@ -135,8 +135,8 @@ A comprehensive Power BI dashboard designed for business analytics and data-driv
 
 I'm actively looking for internship opportunities where I can contribute my technical skills and grow professionally. Feel free to reach out!
 
-- **Email:** [Your Email]
-- **LinkedIn:** [Your LinkedIn Profile]
+- **Email:** [ahmadhafizan004@gmail.com]
+- **LinkedIn:** [Ahmad Hafizan Ahmad Mohtar](www.linkedin.com/in/ahmad-hafizan-ahmad-mohtar-290329270)
 - **GitHub:** [@ahmadhafizan004-art](https://github.com/ahmadhafizan004-art)
 - **Portfolio Website:** [Your Website - Coming Soon]
 
