@@ -6,7 +6,7 @@ Welcome to my portfolio! I'm a passionate developer and data enthusiast with a f
 
 ## 🎯 About Me
 
-I'm seeking an internship opportunity in software development, data engineering, or IoT systems. My expertise spans:
+I'm seeking an internship opportunity in Data Scientist/Data Analyst or Business Analyst. My expertise spans:
 - **IoT & Embedded Systems** - ESP32, Arduino, real-time data collection
 - **Machine Learning & AI** - Logistic Regression, predictive analytics
 - **Data Analytics & Visualization** - Power BI, Tableau, Python, data-driven insights
