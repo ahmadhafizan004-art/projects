@@ -9,7 +9,7 @@ Welcome to my portfolio! I'm a passionate developer and data enthusiast with a f
 I'm seeking an internship opportunity in software development, data engineering, or IoT systems. My expertise spans:
 - **IoT & Embedded Systems** - ESP32, Arduino, real-time data collection
 - **Machine Learning & AI** - Logistic Regression, predictive analytics
-- **Data Analytics & Visualization** - Power BI, Python, data-driven insights
+- **Data Analytics & Visualization** - Power BI, Tableau, Python, data-driven insights
 - **Software Development** - Full-stack development, system integration
 - **Cloud & Databases** - Data pipeline development, real-time dashboards
 
