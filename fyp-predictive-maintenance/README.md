@@ -234,10 +234,10 @@ streamlit run app.py
 ## 📈 Key Results
 
 ### Model Performance
-- **Accuracy:** [Your accuracy %]
-- **Precision:** [Your precision %]
-- **Recall:** [Your recall %]
-- **F1-Score:** [Your F1-score]
+- **Accuracy:** 0.9864
+- **Precision:** 0.9924
+- **Recall:** 0.9701
+- **F1-Score:** 0.9811
 
 ### System Capabilities
 - ✅ Real-time vibration detection (±3g range)
