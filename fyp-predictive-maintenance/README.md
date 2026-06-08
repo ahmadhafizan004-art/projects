@@ -3,7 +3,7 @@
 **Final Year Project (FYP)**  
 **Institution:** [Your University Name]  
 **Submission Date:** [Date]  
-**Group Members:** Ahmad Hafizan Bin Ahmad Mohtar & Team
+**Group Members:** Ahmad Hafizan Bin Ahmad Mohtar
 
 ---
 
@@ -31,7 +31,7 @@ SMEs in Malaysia face barriers to adopting predictive maintenance due to:
 - ❌ Lack of quality machine data
 - ❌ Complex system integration requirements
 
-### Our Solution
+### My Solution
 A low-cost, accessible IoT system that enables **real-time equipment monitoring** and **early fault detection** using:
 - 💰 Affordable components (ESP32, sensors)
 - 🤖 Machine learning algorithms (Logistic Regression)
