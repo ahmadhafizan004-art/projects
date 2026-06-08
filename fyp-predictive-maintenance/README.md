@@ -1,8 +1,8 @@
 # 🔧 IoT-Based Predictive Maintenance System for Electric Motors
 
 **Final Year Project (FYP)**  
-**Institution:** [Your University Name]  
-**Submission Date:** [Date]  
+**Institution:** Universiti Teknologi MARA  
+**Submission Date:** 2025  
 **Group Members:** Ahmad Hafizan Bin Ahmad Mohtar
 
 ---
