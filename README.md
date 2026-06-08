@@ -29,7 +29,7 @@ I'm Ahmad Hafizan, a Computer Science student at **Universiti Teknologi MARA (Ui
 
 ### 1. **VibeSense: IoT-Based Predictive Maintenance System** 🏆
 **Type:** Final Year Project (FYP) - Bachelor of Computer Science  
-**Duration:** 2025-2026 | **Status:** ✅ In Progress
+**Duration:** 2023-2027 | **Status:** ✅ In Progress
 
 #### Project Overview
 An IoT-based predictive maintenance prototype for electric motors in SMEs using Logistic Regression. The system monitors machine health in real-time using vibration and temperature sensors connected to an ESP32 microcontroller.
