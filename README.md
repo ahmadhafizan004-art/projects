@@ -1,151 +1,304 @@
-# 📊 Portfolio Projects
+# Ahmad Hafizan's Project Portfolio
 
-Welcome to my portfolio! I'm a passionate developer and data enthusiast with a focus on **IoT, Machine Learning, Data Analytics, and Predictive Maintenance**. This repository showcases my key projects, including my Final Year Project (FYP) and professional work.
+Welcome to my professional portfolio repository! This space showcases my final year projects (FYP), group projects, and other significant work completed during my academic journey at Universiti Teknologi MARA (UiTM).
 
----
+## 📋 Quick Navigation
 
-## 🎯 About Me
-
-I'm seeking an internship opportunity in Data Scientist/Data Analyst or Business Analyst. My expertise spans:
-- **IoT & Embedded Systems** - ESP32, Arduino, real-time data collection
-- **Machine Learning & AI** - Logistic Regression, predictive analytics
-- **Data Analytics & Visualization** - Power BI, Tableau, Python, data-driven insights
-- **Software Development** - Full-stack development, system integration
-- **Cloud & Databases** - Data pipeline development, real-time dashboards
+- [About Me](#about-me)
+- [Main Projects](#main-projects)
+- [Technologies & Skills](#technologies--skills)
+- [Project Highlights](#project-highlights)
+- [Get In Touch](#get-in-touch)
 
 ---
 
-## 📁 Projects
+## 👤 About Me
 
-### 1. 🔧 **IoT-Based Predictive Maintenance System for Electric Motors** (FYP)
+I'm Ahmad Hafizan, a Computer Science student at **Universiti Teknologi MARA (UiTM)** passionate about:
+- 🔧 **IoT & Embedded Systems** - Hardware integration, sensor technology, real-time systems
+- 🤖 **Machine Learning & Data Science** - Predictive modeling, data analysis, classification
+- 📊 **Data Analytics & Visualization** - Business intelligence, dashboards, insights
+- 🏭 **Industry 4.0** - Predictive maintenance, smart manufacturing, digital transformation
+- 💻 **Software Development** - Full-stack applications, system design, automation
 
-**Repository:** `fyp/`
+**Currently seeking**: Internship opportunities in IoT, Data Science, or Software Development
+
+---
+
+## 🎯 Main Projects
+
+### 1. **VibeSense: IoT-Based Predictive Maintenance System** 🏆
+**Type:** Final Year Project (FYP) - Bachelor of Computer Science  
+**Duration:** 2025-2026 | **Status:** ✅ In Progress
 
 #### Project Overview
-A cost-effective IoT-based predictive maintenance prototype that leverages machine learning to predict electric motor failures before they occur. This system combines hardware sensors, real-time data processing, and intelligent analytics to help small and medium-sized enterprises (SMEs) adopt Industry 4.0 practices.
+An IoT-based predictive maintenance prototype for electric motors in SMEs using Logistic Regression. The system monitors machine health in real-time using vibration and temperature sensors connected to an ESP32 microcontroller.
 
-#### 🎯 Project Objectives
+#### 🎯 Objectives
 1. Design a cost-effective IoT-based predictive maintenance prototype for SME machinery
-2. Develop a machine learning model using vibration and temperature data with Logistic Regression
-3. Test system functionality and usability through simulated machine fault conditions
+2. Develop ML model using vibration and temperature data with Logistic Regression
+3. Test system functionality through simulated fault conditions
 
-#### 🛠️ Tech Stack
-| Component | Technology |
-|-----------|------------|
-| **Microcontroller** | ESP32 |
-| **Sensors** | ADXL335 (Vibration), DS18B20 (Temperature) |
-| **Programming** | Arduino IDE, Python |
-| **ML Model** | Logistic Regression |
-| **Dashboard** | Real-time IoT Monitoring Dashboard |
-| **Data Collection** | Self-collected in controlled environment |
+#### 🛠️ Technology Stack
 
-#### 🔍 Key Features
-- ✅ **Real-time Sensor Monitoring** - Continuous vibration and temperature tracking
-- ✅ **Predictive Analytics** - ML-based fault prediction (Normal vs. Faulty states)
-- ✅ **Cost-Effective Solution** - Uses affordable IoT components (~RM150-300)
-- ✅ **Live Dashboard** - Real-time visualization of motor health status
-- ✅ **RMS Analysis** - Root Mean Square vibration analysis for severity assessment
-- ✅ **Proof-of-Concept** - Demonstrates feasibility for SME-scale applications
+| Category | Technologies |
+|----------|---------------|
+| **Hardware** | ESP32, ADXL335 (Vibration Sensor), DS18B20 (Temperature Sensor) |
+| **Firmware** | Arduino IDE, C/C++ |
+| **Backend** | Python, scikit-learn, joblib |
+| **Frontend** | Dash, Plotly, HTML/CSS |
+| **Data Processing** | Pandas, NumPy |
+| **IoT Platform** | ThingSpeak |
+| **ML Algorithm** | Logistic Regression |
 
-#### 📊 Scope
-- **Hardware Scope:** Condition monitoring of electric motor prototype using vibration and temperature sensors
-- **Dataset Scope:** Self-collected data with artificially induced fault conditions (imbalance, loose mounting)
-- **ML Scope:** Logistic Regression classification model for binary fault detection
-- **User Scope:** Maintenance personnel and technical users in SME environments
+#### ✨ Key Features
+- 🔴 **Real-time Monitoring** - Continuous vibration & temperature tracking
+- 🤖 **ML-Based Fault Detection** - Normal vs Faulty classification
+- 💰 **Cost-Effective** - ~RM150-300 total hardware cost
+- 📊 **Live Dashboard** - Real-time IoT data visualization
+- 📈 **RMS Analysis** - Vibration severity assessment
+- ✅ **SME-Oriented** - Proof-of-concept for accessibility
 
-#### 🎓 Significance
-This project addresses a critical gap in SME adoption of predictive maintenance by:
-- Proving that **affordable, accessible PdM solutions** can be developed using low-cost components
-- Supporting **Industry 4.0 implementation** in Malaysian SMEs
-- Reducing **unplanned downtime** and **maintenance costs** through early fault detection
-- Providing **academic and practical reference** for future cost-effective maintenance systems
-
-#### 📂 Project Structure
+#### 📂 Repository Structure
 ```
-fyp/
+fyp-predictive-maintenance/
 ├── README.md
+├── documentation/
+│   ├── VibeSense_Chapter_1_to_3.md
+│   ├── project_proposal.pdf
+│   └── system_design.md
 ├── hardware/
 │   ├── circuit_diagrams/
 │   └── sensor_specifications/
 ├── firmware/
 │   └── esp32_code/
-├── machine_learning/
-│   ├── logistic_regression_model.py
-│   ├── data_preprocessing.py
-│   └── model_training.py
+│       ├── main.ino
+│       ├── sensor_reader.ino
+│       └── data_transmission.ino
+├── software/
+│   ├── app.py
+│   ├── requirements.txt
+│   ├── logistic_regression_model.pkl
+│   └── baseline_config.json
 ├── data/
-│   ├── raw_sensor_data/
-│   └── processed_datasets/
-├── dashboard/
-│   └── real_time_monitoring/
-└── documentation/
-    └── project_report.pdf
+│   ├── VibeSense_raw.csv
+│   ├── VibeSense_preprocessed.csv
+│   └── VibeSense_cleaned.csv
+└── results/
+    ├── model_performance.png
+    └── confusion_matrix.png
 ```
 
-#### 🚀 Getting Started
-[Detailed setup instructions coming soon]
+#### 📊 Expected Results
+- Binary classification: Normal vs Faulty states
+- Real-time vibration & temperature monitoring
+- Fault probability scoring for maintenance decisions
+- Web-based dashboard for IoT visualization
 
 ---
 
-### 2. 📈 **Power BI Dashboard - Business Intelligence Project**
-
-**Repository:** `power-bi-dashboard/`
+### 2. **Career Pathway Prediction System** 🎓
+**Type:** Group Project - CSC649 (Big Data & Machine Learning)  
+**Duration:** 2026 | **Status:** ✅ Completed
 
 #### Project Overview
-A comprehensive Power BI dashboard designed for business analytics and data-driven decision making. This project demonstrates proficiency in data visualization, ETL processes, and creating actionable business insights.
+A machine learning-based career recommendation system that predicts whether graduates will continue studies, seek employment, or pursue entrepreneurship based on survey data.
 
-#### 🎯 Key Metrics & Features
-- **Interactive Visualizations** - Dynamic charts and graphs for real-time insights
-- **KPI Tracking** - Monitor key performance indicators across departments
-- **Data Integration** - Seamless data pipeline from multiple sources
-- **Custom Reports** - Tailored analytics for stakeholder needs
-- **Performance Optimization** - Efficient data modeling for quick load times
+#### 🎯 Key Achievements
+- 📋 Survey dataset: 500+ respondents from Malaysia
+- 🤖 Multiple ML models evaluated: Random Forest (81% accuracy), Logistic Regression, SVM, KNN
+- 📊 Comprehensive data analysis with 16+ visualizations
+- 🎯 Accurate career pathway classification
 
-#### 🛠️ Tech Stack
-- **Tool:** Power BI Desktop & Service
-- **Data Sources:** [To be specified]
-- **Programming:** DAX, M Query
-- **Database:** [To be specified]
+#### 🛠️ Technologies
+- **Languages**: Python
+- **Libraries**: pandas, scikit-learn, matplotlib, seaborn
+- **Techniques**: Feature engineering, cross-validation, hyperparameter tuning
+- **Tools**: Jupyter Notebook, Google Forms
 
-#### 📊 Dashboard Components
-[Dashboard details coming soon]
+#### 📈 Results
+- **Best Model**: Random Forest (81% accuracy)
+- **Features**: 19 relevant input variables (demographics, financial status, preferences)
+- **Output**: 3 career pathways (Continue Studies, Employment, Start Own Business)
 
----
-
-## 💼 Professional Experience
-
-### Key Competencies
-- **Programming Languages:** Python, Java, C/C++, JavaScript, SQL
-- **Data Analysis Tools:** Power BI, Python (Pandas, NumPy, Scikit-learn)
-- **IoT & Embedded Systems:** ESP32, Arduino, MQTT, sensor integration
-- **Web Development:** HTML, CSS, JavaScript, [Frameworks]
-- **Database Management:** MySQL, MongoDB, Firebase
-- **Version Control:** Git, GitHub
+**Report**: `CAREER_PATHWAY_ML_PROJECT.md`
 
 ---
 
-## 🎓 Education & Certifications
+### 3. **Power BI Dashboard** 📊
+**Type:** Business Intelligence Project  
+**Status:** 🔄 In Portfolio
 
-- **Pursuing:** [Degree/Certification Details]
-- **Focus Areas:** IoT, Machine Learning, Data Analytics, Software Engineering
+Interactive Power BI dashboard for business analytics and data-driven decision-making, demonstrating proficiency in data visualization and ETL processes.
+
+**Features:**
+- Interactive visualizations and KPI tracking
+- Real-time data insights
+- Custom reports and analytics
 
 ---
 
-## 📫 Get In Touch
+### 4. **Tableau Data Visualization Dashboard** 📈
+**Type:** Advanced Analytics Project  
+**Status:** 🔄 In Portfolio
 
-I'm actively looking for internship opportunities where I can contribute my technical skills and grow professionally. Feel free to reach out!
+Sophisticated Tableau dashboards showcasing data storytelling and advanced visualization techniques.
 
-- **Email:** [ahmadhafizan004@gmail.com]
-- **LinkedIn:** [Ahmad Hafizan Ahmad Mohtar](www.linkedin.com/in/ahmad-hafizan-ahmad-mohtar-290329270)
-- **GitHub:** [@ahmadhafizan004-art](https://github.com/ahmadhafizan004-art)
-- **Portfolio Website:** [Coming Soon]
+**Capabilities:**
+- Multi-dimensional data analysis
+- Geographic and demographic visualization
+- Trend analysis and forecasting
+
+---
+
+## 🛠️ Technologies & Skills
+
+### Hardware & IoT
+- **Microcontrollers**: ESP32, Arduino
+- **Sensors**: ADXL335 (Vibration), DS18B20 (Temperature), DHT22 (Humidity)
+- **IoT Platforms**: ThingSpeak, MQTT
+- **Communication**: Wi-Fi, Bluetooth
+
+### Programming Languages
+- **Primary**: Python, SQL
+- **Embedded**: C/C++, Arduino IDE
+- **Web**: HTML, CSS, JavaScript
+- **Others**: Java
+
+### Data Science & ML
+- **Algorithms**: Logistic Regression, Random Forest, SVM, KNN, XGBoost
+- **Techniques**: Feature engineering, preprocessing, cross-validation, hyperparameter tuning
+- **Libraries**: scikit-learn, pandas, NumPy, matplotlib, seaborn, Plotly
+- **Evaluation**: Accuracy, Precision, Recall, F1-Score, ROC-AUC
+
+### Data Visualization & Analytics
+- **Tools**: Power BI, Tableau, Plotly, Dash
+- **Techniques**: Real-time dashboards, interactive charts, heatmaps, scatter plots
+- **Types**: Line charts, bar charts, 3D visualizations, geographic maps
+
+### Databases & Cloud
+- **Databases**: MySQL, MongoDB, Firebase
+- **Cloud Platforms**: ThingSpeak, local servers
+- **Version Control**: Git, GitHub
+
+---
+
+## 📊 Project Highlights
+
+### VibeSense Specifications
+- **Cost**: ~RM150-300 (vs RM5000+ for commercial systems)
+- **Sensors**: 2 types (vibration + temperature)
+- **Connectivity**: WiFi-enabled real-time transmission
+- **ML Model**: Lightweight Logistic Regression suitable for edge devices
+- **Dashboard**: Web-based real-time visualization
+
+### Career Prediction Results
+- **Dataset Size**: 500+ responses
+- **Accuracy Range**: 78-81% across models
+- **Features**: 19 carefully engineered input variables
+- **Classes**: 3-way classification (studies, employment, entrepreneurship)
+
+---
+
+## 📁 Repository Structure
+
+```
+ahmadhafizan004-art/projects/
+│
+├── README.md (this file)
+├── CAREER_PATHWAY_ML_PROJECT.md
+│
+├── fyp-predictive-maintenance/
+│   ├── README.md
+│   ├── documentation/
+│   ├── hardware/
+│   ├── firmware/
+│   ├── software/
+│   ├── data/
+│   └── results/
+│
+├── power-bi-dashboard/
+│   └── [Dashboard files]
+│
+└── tableau-dashboard/
+    └── [Visualization files]
+```
+
+---
+
+## 🚀 Quick Start
+
+### Explore VibeSense
+1. Review `fyp-predictive-maintenance/README.md`
+2. Check `documentation/` for technical details
+3. View hardware setup in `hardware/`
+4. Run Python scripts in `software/`
+
+### View Career Prediction Study
+1. Open `CAREER_PATHWAY_ML_PROJECT.md`
+2. Explore model comparisons and results
+3. Review data visualizations and insights
+
+---
+
+## 💡 Key Learnings
+
+✅ **IoT & Embedded Systems**
+- Real-time sensor integration and data acquisition
+- Microcontroller programming and WiFi connectivity
+- Low-cost hardware implementation strategies
+
+✅ **Machine Learning**
+- Algorithm selection based on constraints
+- Model evaluation and optimization
+- Feature engineering and preprocessing
+
+✅ **Data Science**
+- Survey design and data collection
+- Exploratory data analysis and visualization
+- Predictive modeling and classification
+
+✅ **Project Management**
+- Multi-phase project execution
+- Team collaboration and coordination
+- Documentation and reporting
+
+---
+
+## 📞 Contact & Connect
+
+| Channel | Link |
+|---------|------|
+| **Email** | ahmadhafizan004@gmail.com |
+| **GitHub** | [@ahmadhafizan004-art](https://github.com/ahmadhafizan004-art) |
+| **LinkedIn** | [Ahmad Hafizan Ahmad Mohtar](https://www.linkedin.com/in/ahmad-hafizan-ahmad-mohtar-290329270) |
+| **Matric** | 2023214052 |
+| **University** | Universiti Teknologi MARA (UiTM) |
+
+---
+
+## 📜 Academic Details
+
+- **Program**: Bachelor of Computer Science (Hons.)
+- **Faculty**: Faculty of Computer and Mathematical Sciences
+- **Supervisor**: Ms. Nor Fadilah Binti Tahar
+- **FYP Title**: VibeSense: An IoT-Based Predictive Maintenance Prototype for Electric Motors in SMEs Using Logistic Regression
 
 ---
 
 ## 📄 License
 
-These projects are available for review and educational purposes. Feel free to explore, and please reach out if you have any questions!
+These projects are available for educational and portfolio purposes. Feel free to explore the documentation and code.
 
 ---
 
-**Last Updated:** June 2026 | **Status:** Actively Maintained & Growing 🚀
+## 🌟 Thank You!
+
+Thank you for visiting my portfolio! I'm passionate about technology and continuous learning. If you have any questions, collaboration opportunities, or would like to discuss my projects, please feel free to reach out.
+
+**Looking forward to connecting with you!** 🚀
+
+---
+
+**Last Updated**: June 8, 2026  
+**Status**: ✅ Actively Maintained & Growing
