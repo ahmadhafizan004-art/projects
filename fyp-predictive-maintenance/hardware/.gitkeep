@@ -1,0 +1,27 @@
+# 🔌 Hardware
+
+This folder contains all hardware-related files for the IoT predictive maintenance system.
+
+## 📂 Subfolders
+
+### circuit_diagrams/
+- Schematic designs
+- PCB layouts
+- Pin connection diagrams
+- Eagle/KiCAD files
+
+### sensor_specifications/
+- ADXL335 accelerometer datasheet
+- DS18B20 temperature sensor datasheet
+- Technical specifications
+- Calibration procedures
+
+## 📋 Files
+
+- **components_list.md** - Complete bill of materials (BOM)
+- **pinout_diagram.md** - ESP32 pin configuration
+- **assembly_guide.md** - Hardware assembly instructions
+
+---
+
+**Note:** Add your circuit diagrams, datasheets, and schematics here.
